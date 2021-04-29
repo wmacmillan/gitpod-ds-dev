@@ -2,7 +2,7 @@ ports:
 - port: 8050
   onOpen: open-preview
 - port: 8888
-  onOpen: open-browser
+  onOpen: ignore
 tasks:
-- init: /workspace/dash-and-jupyter-notebook-with-gitpod/run.sh
-  command: cp -r /workspace/dash-and-jupyter-notebook-with-gitpod/.jupyter /home/gitpod/
+- init: /workspace/gitpod-ds-dev/run.sh
+  command: cp -r /workspace/gitpod-ds-dev/.jupyter /home/gitpod/
