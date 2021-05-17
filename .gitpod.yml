@@ -25,3 +25,4 @@ vscode:
     - njpwerner.autodocstring
     - ms-azuretools.vscode-docker
     - eamodio.gitlens
+    - jeandeaual.noir
